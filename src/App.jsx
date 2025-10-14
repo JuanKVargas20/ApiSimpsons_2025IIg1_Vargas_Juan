@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './Components/Header/Header'
 import NavBar from './Components/NavBar/NavBar'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import EpisodiesPage from './Pages/EpisodiesPage/EpisodiesPage'
 import CharactersPage from './Pages/CharactersPage/CharactersPage'
 import LocationPage from './Pages/LocationPage/LocationPage'
@@ -9,7 +9,7 @@ import CharacterDetailPage from './Pages/CharacterDetailPage/CharacterDetailPage
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <div id='container-pages'>
         <NavBar />
@@ -22,7 +22,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
+    </>
   )
 }
 

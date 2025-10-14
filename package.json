@@ -29,7 +29,12 @@
   },
   "description": "Proyecto React con Vite - API The Simpsons",
   "main": "index.js",
-  "keywords": ["React", "Vite", "Simpsons", "API"],
+  "keywords": [
+    "React",
+    "Vite",
+    "Simpsons",
+    "API"
+  ],
   "author": "Juan Vargas",
   "license": "ISC"
 }
