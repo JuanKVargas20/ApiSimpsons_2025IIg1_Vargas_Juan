@@ -1,0 +1,25 @@
+.card-episodie {
+  background-color: #fff4d1 !important;
+  border: 2px solid #ffcc00 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.card-episodie:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.card-episodie .card-title {
+  color: #eecb3f;
+  text-shadow: 2px 2px 0 #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-episodie .card-text {
+  color: #000203;
+  font-size: 0.95rem;
+}

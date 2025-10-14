@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+  background-color: #fffbe7; 
+  color: #333;
+}
+
+#container-pages {
+  display: flex;
+  min-height: calc(100vh - 150px);
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 30px 30px 30px;
+  background-color: lightcyan;
+  overflow-y: auto;
+  min-height: calc(100vh - 150px);
+  box-sizing: border-box;
+}
